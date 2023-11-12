@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.fon{
+    width: 100%;
+    height: 100vh;
+}
+body{
+    width: 100%;
+    background: radial-gradient(144.5% 81.53% at 25.55% 31.91%, #20135C 0%, #140739 92.82%);
+    box-shadow: 0px 15px 40px 0px rgba(0, 0, 0, 0.25);
+    height: 100vh;
+}
+.line1{
+    width: 100%;
+    height: 99vh;
+    z-index: 2;
+}
+.line_bac{
+    width: 100%;
+    height: 99vh;
+    z-index: 1;
+    margin-top: -100%;
+}
+.con_wel{
+    width: 480px;
+    height: 630px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #1E1156 0%, rgba(28, 35, 64, 0.00) 100%);
+    box-shadow: 0px 25px 25px 0px rgba(0, 3, 32, 0.50);
+    z-index: 3;
+    margin-top: -45%;
+    margin-left: 72px;
+}
+.valuet{
+    text-shadow: 0px 5px 12px rgba(6, 5, 19, 0.25);
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    background: linear-gradient(272deg, #3887FE 4.26%, #3BA0FF 51.37%, #5FB2FF 99.01%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 12px;
+    width: fit-content;
+}
+.line_logo{
+    width: 175px;
+height: 2px;
+background: #1288E8;
+margin-bottom: 24px;
+}
+.logo{
+    width: 295px;
+height: 150px;
+margin-left: 1000px;
+margin-top: 50px;
+}
+.logo_h1{
+    color: #FFF;
+    text-shadow: 0px 4px 20px rgba(1, 143, 255, 0.15);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.tre1{
+    z-index: 4;
+    filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.25));
+    margin-top: -700px;
+    margin-left: 29.27px;
+}
+.tre2{
+    z-index: 3;
+    margin-top: -700px;
+    margin-left: 531px;
+}
+a{
+    color: #5FB2FF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.h1_welcom{
+    color: #FFF;
+    text-shadow: 0px 4px 20px rgba(1, 143, 255, 0.15);
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 82px;
+    margin-left: 160px;
+    margin-bottom: 62px;
+}
+.inps{
+    padding-left: 50px;
+    color: rgb(118, 118, 118),;
+}
+.eye{
+    margin-left: 415px;
+    margin-top: -28px;
+}
+.eeye{
+    width: 25px;
+    height: 21px;
+}
+.forgot{
+    margin-left: 169px;
+}
+.btn_up{
+    width: 105px;
+    height: 42px;
+    border-radius: 8px;
+    background: linear-gradient(88deg, #2F3453 11.5%, #242845 76.7%);
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+    color: #949EC0;
+    font-size: 16px;
+    margin-right: 32px;
+    font-weight: 700;
+}
+.form2{
+    display: none;
+}
+.sign, .add{
+    width: 105px;
+    height: 42px;
+    border-radius: 8px;
+    background: linear-gradient(88deg, #2F3453 11.5%, #242845 76.7%);
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+    color: #949EC0;
+    font-size: 16px;
+    margin-right: 32px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.add{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.name{
+    margin-top: 46px;
+    margin-bottom: 36px;
+}
+.btns_div{
+    padding: none;
+    margin-bottom: 103px;
+}
+.btn_in{
+    width: 105px;
+    height: 42px;
+    border-radius: 8px;
+    background: linear-gradient(88deg, #2F3453 11.5%, #242845 76.7%);
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+    color: #949EC0;
+    font-size: 16px;
+    margin-right: 32px;
+    font-weight: 700;
+}
+.first_name{
+    margin-top: 46px;
+    margin-bottom: 36px;
+}
+.active{
+    background: linear-gradient(272deg, #3887FE 4.26%, #3BA0FF 51.37%, #5FB2FF 99.01%);
+    color: #fff;
+}
+.div_inps{
+    margin-bottom: 75px;
+}
+.em_img_div{
+    margin-bottom: 26px;
+}
+.em_img, .ps_img{
+    border-radius: 100px;
+    margin-left: 38px;
+    border: 2px solid #5FB2FF;
+    padding: 5px;
+}
+.em_img_div, .ps_img_div{
+    margin-top: -45px;
+    z-index: 4;
+}
+.em_img_div{
+    margin-bottom: 44px;
+}
+.inps{
+    width: 380px;
+    height: 58px;
+    border-radius: 8px;
+    background: #2E3558;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    border: none;
+    margin-left: 25px;
+}
+.tre22{
+    width: 150px;
+    height: 150px;
+}
+.fle{
+    display: flex;
+}
+.tre3{
+    margin-top: -685px;
+    z-index: 2;
+    margin-left: -10px;
+}
